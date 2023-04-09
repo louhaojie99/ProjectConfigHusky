@@ -4,7 +4,7 @@
 
 - 中文文档：[Husky](https://www.breword.com/typicode-husky)
 - 英文文档：[Husky](https://typicode.github.io/husky/#/)
-- 详细配置可参考：https://juejin.cn/post/7038143752036155428#heading-8
+- 配置教程请参考：https://www.yuque.com/g/yuqueyonghu47iqe6/ryqktu/tg7pr3vsitd1w2du/collaborator/join?token=VfnbBsPIHzW71wMU#
 
 ## git commit 指南
 
