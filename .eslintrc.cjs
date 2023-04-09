@@ -14,6 +14,8 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
+    /** 解决eslint与prettier配置冲突 */
+    "prettierr"
   ],
   /** 指定处理器 */
   overrides: [],
