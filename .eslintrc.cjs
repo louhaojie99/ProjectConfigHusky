@@ -13,9 +13,11 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
+    /** 在React@17以后，是不需要再手动去引入React的。因为该版本之后加入了react/jsx-runtime，会自动对JSX进行解析 */
+    "plugin:react/jsx-runtime",
     "plugin:@typescript-eslint/recommended",
     /** 解决eslint与prettier配置冲突 */
-    "prettierr"
+    "prettier"
   ],
   /** 指定处理器 */
   overrides: [],
@@ -30,4 +32,10 @@ module.exports = {
   plugins: ["react", "@typescript-eslint"],
   /** 配置规则 */
   rules: {},
+  /** 设置 */
+  settings: {
+    react: {
+      version: "18.2.0"
+    }
+  }
 };
